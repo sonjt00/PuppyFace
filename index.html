@@ -232,7 +232,7 @@
                         $('.file-upload-content').show();
 
                         $('.image-title').html(input.files[0].name);
-                        document.getElementById('banner').style.cssText = 'width: 60%; position: absolute; bottom: -35rem; left: 2rem;'};
+                        document.getElementById('banner').style.cssText = 'width: 60%; position: absolute; bottom: -35rem; left: 5rem;'};
 
                     reader.readAsDataURL(input.files[0]);
                     init().then(function () {
@@ -247,7 +247,7 @@
                 $('.file-upload-input').replaceWith($('.file-upload-input').clone());
                 $('.file-upload-content').hide();
                 $('.image-upload-wrap').show();
-                document.getElementById('banner').style.cssText = 'width: 60%; position: absolute; bottom: 0rem; left: 2rem;';
+                document.getElementById('banner').style.cssText = 'width: 60%; position: absolute; bottom: 0rem; left: 5rem;';
             }
             $('.image-upload-wrap').bind('dragover', function () {
                 $('.image-upload-wrap').addClass('image-dropping');
@@ -256,7 +256,7 @@
                 $('.image-upload-wrap').removeClass('image-dropping');
             });
         </script>
-        <div id = "banner" style = "width: 60%; position: absolute; bottom: 0rem; left: 2rem; ">
+        <div id = "banner" style = "width: 60%; position: absolute; bottom: 0rem; left: 5rem; ">
             <ins class="kakao_ad_area" style="display:block;" 
  data-ad-unit    = "DAN-1hbdr6q7jc4dt" 
  data-ad-width   = "200" 
